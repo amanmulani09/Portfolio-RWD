@@ -1,0 +1,52 @@
+:root{
+    --clr-dark: #080a13;
+    --clr-light:#f1f5f9 ;
+    --clr-slate400: #94a3b8;
+    --clr-slate600:#475569 ;
+    --clr-slate800: #1e293b;
+    --clr-rose: #e11d48;
+    --clr-indigo: #4f46e5;
+
+
+}
+
+* {
+    margin:0;
+    line-height: calc(1em + 0.5rem) /* 0.5 rem is equal to 8px and 1em is the actual font size*/
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'General Sans', sans-serif;
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+}
+
+image,
+picture,
+video,
+canvas {
+    display: block; /* using this as a display block because bydefault it's inline elements*/
+    max-width: 100%;
+    user-select: none;
+}
+
+button {
+    display: inline-blockl;
+    padding:0;
+    border:none;
+    background: none;
+    cursor:pointer;
+    color:inherit;
+}
+
+a {
+    color:var(--clr-rose)
+}
+
+strong {
+    color:var(--clr-indigo)
+}
